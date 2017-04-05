@@ -1,0 +1,5 @@
+if(state == tied)
+{
+	if(!haveDrunkCoffee) Coffee.Drink();
+	else goHome();
+}
